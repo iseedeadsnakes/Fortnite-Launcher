@@ -1,0 +1,32 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp5.Pages"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="WpfApp5.Pages.Home"
+      mc:Ignorable="d" 
+      Loaded="HomeLoaded"
+      Title="Home" Height="710" Width="1090">
+
+    <Grid x:Name="HomeGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="33*"/>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Black" Opacity="0.2" Background="Gray" CornerRadius="25" BorderThickness="1" Margin="750,35,10,340"/>
+        <Border BorderBrush="Black" Opacity="0.2" Background="Gray" CornerRadius="35" BorderThickness="1" Margin="10,35,345,340"/>
+        <Border x:Name="NewsBorder" BorderBrush="Black" Opacity="0.2" Background="Gray" CornerRadius="35" BorderThickness="1" Margin="10,210,10,60"/>
+        <ui:Button x:Name="NewsButton1" Margin="0,490,0,0" VerticalAlignment="Top" Width="30" HorizontalAlignment="Center" Height="25" Click="NewsButton1_Click"/>
+        <ui:Button x:Name="NewsButton2" Margin="495,490,0,0" VerticalAlignment="Top" Width="30" Height="25" Click="NewsButton2_Click"/>
+        <ui:Button x:Name="NewsButton3" Margin="565,490,0,0" VerticalAlignment="Top" Width="30" Height="25" Click="NewsButton3_Click"/>
+        <ui:TextBlock x:Name="DIscordUsername" Text="Sigma" FontFamily="Segoe UI SemiBold" Foreground="White" FontSize="25" Margin="885,67,10,435"/>
+        <Border x:Name="AvatarBorder" BorderBrush="Black" Opacity="1" Background="Gray" CornerRadius="65" BorderThickness="1" Margin="770,67,210,372"/>
+        <ui:TextBlock x:Name="DiscordIdText" Text="104101410110" Opacity="0.6" FontFamily="Segoe UI Bold" Foreground="White" FontSize="15" Margin="885,104,10,397"/>
+        <Border x:Name="SkinBorder" BorderBrush="Gray" Opacity="1" CornerRadius="75" BorderThickness="1" Margin="55,52,890,355">
+        </Border>
+        <ui:TextBlock x:Name="HelloTextBlock" Foreground="White" Text="Hello, null" FontSize="50" FontFamily="Segoe UI SemiBold" Margin="205,84,345,389"/>
+
+
+    </Grid>
+</Page>

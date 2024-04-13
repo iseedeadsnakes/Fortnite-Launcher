@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\GitHub\CharlesLauncher\WpfApp6\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Library.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Navigation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Settings\Account.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Settings\Game.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Settings\Launcher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Shop.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Library.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Navigation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Settings\Account.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Settings\Game.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Settings\Launcher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Shop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
