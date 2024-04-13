@@ -6,27 +6,31 @@ namespace WpfApp5.Utilities
     class Utils
     {
 
-        public static void KillProcess(string processName)
+        public static void KillProcess(string name)
         {
             try
             {
-                Process[] processesByName = Process.GetProcessesByName(processName);
-                for (int i = 0; i < processesByName.Length; i++)
+                Process[] processes = Process.GetProcessesByName(name);
+
+                foreach (Process process in processes)
                 {
-                    processesByName[i].Kill();
+                    process.Kill();
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                System.Windows.MessageBox.Show(ex.Message);
             }
         }
 
-
-        internal static void DownloadFile(string URL, string path)
+        public static void DownloadFile(string url, string path)
         {
             try
             {
-                new WebClient().DownloadFile(URL, path);
+                using (WebClient client = new WebClient())
+                {
+                    client.DownloadFile(url, path);
+                }
             }
             catch (Exception ex)
             {
