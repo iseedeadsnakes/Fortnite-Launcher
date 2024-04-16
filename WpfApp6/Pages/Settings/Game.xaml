@@ -19,6 +19,7 @@
         <ui:ToggleSwitch x:Name="EORSwitch" Content="" Margin="0,130,0,0" VerticalAlignment="Top" Unchecked="EOR_Unchecked" Checked="EOR_Checked" HorizontalAlignment="Center"/>
         <ui:TextBlock Text="Disable Pre Edits" Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="20" Margin="80,48,611,569"/>
         <ui:TextBlock Text="idk what to put here" Foreground="White" FontFamily="Segoe UI" Opacity="0.4" FontSize="10" Margin="80,73,588,545"/>
+        <ui:TextBlock Text="you gotta add these yourself if you want them" Foreground="White" FontFamily="Segoe UI" Opacity="1" FontSize="30" Margin="41,195,178,411"/>
         <ui:ToggleSwitch x:Name="DPESwitch" Content="" Margin="0,60,0,0" VerticalAlignment="Top" Unchecked="DPE_Unchecked" Checked="DPE_Checked" HorizontalAlignment="Center"/>
     </Grid>
 </Page>
