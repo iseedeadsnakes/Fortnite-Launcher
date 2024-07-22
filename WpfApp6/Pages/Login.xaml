@@ -11,7 +11,7 @@
 
     <Grid>
         <Border Background="Gray" Opacity="0.1" CornerRadius="10" BorderThickness="1" Margin="328,178,328,178"/>
-        <ui:TextBlock x:Name="TextBlock" Text="Launcher" FontFamily="Segoe UI Bold" HorizontalAlignment="Left" RenderOptions.BitmapScalingMode="Fant" VerticalAlignment="Top" Margin="495,200,0,0" FontSize="40" FontWeight="Bold" Foreground="White" Width="210" Height="63"/>
+        <Image x:Name="LauncherImage" Source="where the image is" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="495,200,0,0" Width="210" Height="63"/>
         <ui:TextBlock x:Name="boomboombow" Text="Sign In" Opacity="0.4" FontFamily="Segoe UI SemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White" Width="70" Height="28" Margin="0,285,0,0"/>
         <ui:Button MouseOverBorderBrush="Blue" MouseOverBackground="IndianRed" x:Name="LoginButton" Content="Login" Background="IndianRed" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White" Width="410" Height="33" Margin="0,461,0,0" Click="Login_Click"/>
         <ui:PasswordBox x:Name="Password" PlaceholderText="Password..." VerticalAlignment="Top" Width="410" Height="41" Margin="375,374,375,0" FontSize="15" FontFamily="Segoe UI Bold" Foreground="White" BorderBrush="Transparent" TextChanged="Password_TextChanged" />
